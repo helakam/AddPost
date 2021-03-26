@@ -19,6 +19,7 @@
                break;
                }
              }
+                 
                }
                if($f==0)
                  {
@@ -27,4 +28,4 @@
                }  
 }
 // header("Location: ../Login/soori.php");
-??>
+?>
