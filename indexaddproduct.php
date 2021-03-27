@@ -40,3 +40,11 @@
 
   </select>
 </div>
+<?php include_once('add/ImConnect.php');?>
+<?php include_once('add/productadd.php');?>
+
+</div>
+<?php include('php/footer.php');?>
+
+</body>
+</html>  
