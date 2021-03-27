@@ -10,3 +10,34 @@
   <title>Add Post</title>
 </head>
 
+<body>  
+      <?php include('php/header1.php'); ?> 
+    <div class="post">  
+<p class="sign" align="center">Add Your Post</p>
+<form action="indexaddpost.php" method="post" enctype="multipart/form-data" >
+<div class="remember123" >
+<label "remember">Post Description</label>         
+</div>
+  <textarea type="text" name="post" class="d4to" placeholder="Enter Post Description" required></textarea>
+  <div class="remember123" >
+  <label class="remember123" >Upload Image </label>
+  </div>
+  
+  <input class="d4to" type="file" name="image" required>  <br>
+<br>
+  <input  type="submit" name="save" class="save" value="ADD">
+  
+</div
+>
+</form>
+<br>
+<?php session_start(); ?>
+<?php include_once('Add post/ImConnect.php');?> 
+<?php include('Add post/post.php');?>
+<?php include('php/footer.php');?> 
+
+<script src="js/scroll.js"></script>
+
+  
+</body>
+</html>
