@@ -28,3 +28,15 @@
     <input class="un " align="center" type="text" placeholder="Enter Name" name="Pname"  required>
 
   </div>
+<div class="remember12" align="center">
+    <label for="Pcategory"><b>Product Category</b></label>
+    <select name="Pcat" class="un">
+      <option value="Home & Living">Home & Living</option>
+      <option value="Arts & Crafts">Arts & Crafts</option>
+      <option value="Tools & Home">Tools & Home</option>
+      <option value="Home Gardening">Home Gardening</option>
+      <option value="Toys & Educational">Toys & Educational</option>
+      <option value="Kitchen & Dining">Kitchen & Dining</option>
+
+  </select>
+</div>
