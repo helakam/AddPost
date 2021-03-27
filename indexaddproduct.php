@@ -40,6 +40,57 @@
 
   </select>
 </div>
+         <div class="form-group">
+  <div class="remember12" align="center">
+    <label for="Pcolor"><b>Product Color</b></label>
+  </div>
+    <input class="un " align="center" type="text" placeholder="Enter Product Color" name="Pcolor" id="Pcolor" required>
+</div>
+<div>
+<div class="remember12" align="center">
+    <label for="Pquantity"><b>Quantity</b></label>
+  </div>
+    <input class="un " align="center" type="text" placeholder="Enter Product quantity" name="Pquantity" id="Pquantity" required>
+</div>
+<div class="form-group">
+<div class="remember12" align="center">
+    <label for="Pprice"><b>Product Price</b></label>
+  </div>
+    <input class="un " align="center" type="text" placeholder="Enter Product Price" name="Pprice" id="Pprice" required>
+</div>
+<div class="form-group">
+  <div class="remember12" align="center">
+    <label for="Pweight"><b>Product Weight</b></label>
+  </div>
+    <input  class="un " align="center" type="text" placeholder="Enter Product Weight" name="Pweight" id="Pweight" required>
+</div>
+<div class="form-group">
+  <div class="remember12" align="center">
+    <label for="Pdes"><b>Product Description</b></label>
+  </div>
+    <input class="un " align="center" type="text" placeholder="Enter Product Descripion" name="Pdes" id="Pdes" required>
+
+  </div>
+
+   <div class="form-group"> 
+    <div class="remember12" align="center">
+    <label for="productImage" style="cursor: pointer;"><b>Upload Image1</b></label>
+  </div>
+    <img id="output" width="200" /> 
+    <input class="un" align="center" type="file" name="image"  style="" required>
+    <br>
+    
+          <br>
+    <input type="submit" name="Submit" class="submit" align="center"  value="ADD">
+          
+      </div>
+      
+    
+    
+
+    </div>
+  </form>
+  </form>
 <?php include_once('add/ImConnect.php');?>
 <?php include_once('add/productadd.php');?>
 
